@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: greenyellow;
+}
+.Login{
+	width: 500px;
+	height: 300px;
+	border: 1px solid grey;
+	text-align: center;
+	border-radius: 9px;
+	margin: auto;
+	background: #FBF9F9;
+}
+h1{
+	color:gray;
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+}
+input{
+	width: 400px;
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	padding-left: 20px;
+}
+.Agin{
+	width: 200px;
+	height: 40px;
+	background: greenyellow;
+	border-radius: 99px;
+}

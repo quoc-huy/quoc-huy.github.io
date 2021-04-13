@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WebsizeBanDoLuuNiem</title>
+	<link rel="stylesheet" type="text/css" href="Doluuniem.css">
+	
+</head>
+
+<body>
+	<div>
+		<img src="hinh/logo-bold.png">
+	</div>
+	<div class="Login">
+		<button><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/DangNhap.html">Đăng nhập</a> </button>
+		<button><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/DangKy.html">Đăng kí</a></button>
+	</div>
+	<nav class="menu">
+		<ul class="start">
+			<li class="content"><a href="#">Trang Chủ</a></li>
+		</ul>
+		<ul>
+			<li>
+			</li>
+			<li>
+				<div class="content">
+					<a href="#">Quà lưu niệm<span class="nova">&#9660;</span></a>
+
+					<ul class="Doluuniem">
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaBangThuyTinh.html">Quà làm bằng thủy tinh</a></li>
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaLamBangTre.html">Quà làm bằng Gỗ</a></li>
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaLamBangKimLoai.html">Quà làm bằng kim loại</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="content"><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/Gioithieu.html">Giới thiệu</a></li>
+			<li>
+				<div class="content">
+					<a href="#">Đối tượng/Dịp<span class="nova">&#9660;</span></a>
+
+					<ul class="Doluuniem">
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaTangBanBe.html">Bạn bè(trai, gái)</a></li>
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaTangThayCo.html">Thầy giáo, cô giáo</a></li>
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaTangThayCo.html#">Gia đình, người thân</a></li>
+						<li><a href="file:///C:/Users/DELL/Downloads/ThietKeWeb/BT%20cu%E1%BB%91i%20k%C3%AC/QuaTangNgayLe.html">Quà vào ngày lễ</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="content"><a href=></a></li>
+		</ul>
+		<div class="down"> 
+			<div class="search">
+				<input type="" name="" placeholder="tìm kiếm">
+				<button><img src="hinh/images (1).png"</button>
+			</div>
+		</div>
+	</nav>
+	</div>
+	<div id="Qc">
+				<img id="QC" src="hinh/QuangCao/1.jfif">
+				<div id="previous"><img src="hinh/QuangCao/prev.png" onClick="back()"></div>
+				<div id="next"><img src="hinh/QuangCao/next.png" onClick="next()"></div>
+			</div>
+	<section>
+	<script>
+		var t;
+		var currentIndex=1;
+		function next(){
+			clearInterval(t);
+			if(currentIndex < 4){
+				currentIndex++;
+				document.getElementById("QC").src = "hinh/QuangCao/" + currentIndex + ".jfif";
+			}
+			else{
+				currentIndex=1;
+				document.getElementById("QC").src = "hinh/QuangCao/" + currentIndex + ".jfif";
+			}
+			t = setInterval("next()",3000);
+			
+		}
+		function back(){
+			clearInterval(t);
+			if(currentIndex > 1){
+				currentIndex--;
+				document.getElementById("QC").src = "hinh/QuangCao/" + currentIndex + ".jfif";
+			}
+			else{
+				currentIndex=4;
+				document.getElementById("QC").src = "hinh/QuangCao/" + currentIndex + ".jfif";
+			}
+			t = setInterval("next()",3000);
+		}
+		t = setInterval("next()",3000);
+	</script>
+		<div class="Blo">
+			<a><b><font size="6">Đang Hot</font></b></a>
+		</div>	
+	</section>
+	<br>
+<div class="anh">
+			<div class="item item1">
+				<li><b>Đồng hồ cát</b></li>
+				<img src="hinh/shopping (3).webp">
+				
+			</div>
+			<div class="item item2">
+				<li><b>Cầu pha lê</b></li>
+				<img src="hinh/shopping (7).webp">
+				
+			</div>
+			<div class="item item3">
+				<li><b>Cầu pha lê Bồ Công Anh</b></li>
+				<img src="hinh/shopping (4).webp">
+				
+			</div>
+			<div class="item item4">
+				<li><b>Ảnh 3D</b></li>
+				<img src="hinh/shopping (8).webp">
+				
+			</div>
+			<div class="item item5">
+				<li><b>Gấu bông</b></li>
+				<img src="hinh/shopping (2).png">
+				
+			</div>
+			<div class="item item6">
+				<li><b>Đèn ngủ hình trứng</b></li>
+				<img src="hinh/shopping (2).webp">
+				
+			</div>
+			<div class="item item7">
+				<li><b>Cầu tuyết</b></li>
+				<img src="hinh/qua-cau-tuyet-hane-flamer-2-300x300.jpg">
+				
+			</div>
+			<div class="item item8">
+				<li><b>Cúp Đại Hội</b></li>
+				<img src="hinh/shopping.webp">
+				
+    		</div>
+			<div class="item item9">
+				<li><b>Đèn ngủ LED 3D</b></li>
+				<img src="hinh/den-ngu-led-3D-1-300x300.jpg">
+				
+			</div>
+			<div class="item item10">
+				<li><b>Móc khóa</b></li>
+				<img src="hinh/timthumb (1).jfif">
+				
+			</div>
+			<div class="item item11">
+				<li><b>Hộp gỗ đựng điện thoại</b></li>
+				<img src="hinh/timthumb (3).jfif">
+			
+			</div>
+			<div class="item item12">
+				<li><b>Thuyền gỗ</b></li>
+				<img src="hinh/shopping (1).webp">
+				
+			</div>
+			<div class="item item13">
+				<li><b>Thanh gỗ lắt xã stress</b></li>
+				<img src="hinh/thanh-go-lat-xa-stress-4-300x300.jpg">
+				
+			</div>
+			<div class="item item14">
+				<li><b>Cốc sứ 2 màu</b></li>
+				<img src="hinh/coc-su-2-mau-5-300x300.jpg">
+				
+			</div>
+			<div class="item item15">
+				<li><b>Hộp nhạc trái tim</b></li>
+				<img src="hinh/hop-nhac-go-trai-tim-4-300x300.jpg">
+				
+			</div>
+			<div class="item item16">
+				<li><b>Cầu pha lê Bồ công anh(đỏ)</b></li>
+				<img src="hinh/qua-cau-pha-le-bo-cong-anh-3-300x300.jpg">
+				
+			</div>
+			<div class="item item16">
+				<li><b>Cốc đổi màu</b></li>
+				<img src="hinh/coc-doi-mau-viet-thong-diep-1-300x300.jpg">
+				
+			</div>
+			<div class="item item16">
+				<li><b>Gấu bông nhiều màu</b></li>
+				<img src="hinh/gau-bong-nhieu-mau-3-300x300.jpg">
+				
+			</div>
+			<div class="item item16">
+				<li><b>Đồng hồ báo thức</b></li>
+			<img src="hinh/dong-ho-bao-thuc-hinh-tho-1-300x300.jpg">
+			
+			</div>
+			<div class="item item16">
+				<li><b>Đèn ngủ Bồ công anh</b></li>
+				<img src="hinh/den-ngu-hoa-bo-cong-anh-1-300x300.jpg">
+				
+			</div>
+		</div>
+		<foodter>
+			<div class="Ble">
+					<li><b>Thời gian hỗ trợ:</b>Từ thứ 2-6 bắt đầu từ 7h sáng đến 6h tối</li>
+					<li><b>Địa chỉ:</b>Phường Tân An, Tp TDM</li>
+					<li><b>Hotline:</b>0001.1122.2333</li>
+					<li><b>Zalo:</b>0001.1122.2333</li>
+					<li><b>Websize:</b>qualuuniem@gmail.com</li>
+			</div>	
+		</foodter>
+</body>
+</html>

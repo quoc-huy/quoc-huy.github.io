@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Đăng nhập</title>
+<link rel="stylesheet" type="text/css" href="DangNhap.css" >
+	<script language="javascript">
+		function KiemTraThongTin(){
+			var ten=document.getElementById("ten");
+			if(ten.value==""){
+				alert("Bạn chưa nhập tên tài khoản");
+				ten.focus();
+				return false;
+			}
+			var mk=document.getElementById("mk");
+			if(mk.value==""){
+				alert("Bạn chưa nhập mật khẩu");
+				mk.focus();
+				return false;
+			}
+				alert("Đăng nhập thành công");
+				return true;
+			}
+	</script>
+</head>
+
+<body>
+	<form class="Login" onSubmit="return KiemTraThongTin()" action="BTCuoiKy..html">
+		<h1>Nhập Tài Khoản</h1>
+		<input id="ten" type="text" placeholder="Tên đăng nhập">
+		<input id="mk" type="password" placeholder="Mật khẩu">
+		<input class="Agin" type="submit" value="Login">
+	</form>
+</body>
+</html>

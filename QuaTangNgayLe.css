@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 1200px;
+	padding-left: 100px;
+}
+.start:after{
+	display:block;
+	clear:both;
+}
+.menu{
+	width:100%;
+	background:green;
+	height:100px;
+	margin-top:30px;
+}
+.menu li {
+	list-style:none;
+	font-family:'Ek Mukta';
+}
+.menu a{
+	transition:all linear 0.15s;
+	color:none;
+	text-decoration:none;
+}
+.menu .nova{
+	font-size:12px;
+	line-height:0;
+}
+.content{
+	float:left;
+	display:inline-block;
+	position:relative;
+	font-size:19px;
+}
+.content a{
+	padding:10px 40px;
+	display:inline-block;
+	color:white;
+}
+.menu ul li:hover a{
+	background:none;
+}
+.menu li:hover .Doluuniem{
+	z-index:1;
+	opacity:1;
+}
+.Doluuniem{
+	width:250px;
+	padding:9px ;
+	background:white;
+	position:absolute;
+	top:100%;
+	left:-9px;
+	z-index:-1;
+	opacity:0;
+	box-shadow:0 2px 3px rgba(0,0,0,0.2);
+}
+.Doluuniem li{
+	display:inline-block;
+	font-size:15px;
+	margin:0;
+	list-style:none;
+}
+.Doluuniem li a{
+	display:block;
+	transition:all linear 0.15s;
+	width:150px;
+	font-weight:500px;
+	color:#000000;
+}
+.Doluuniem li a:hover{
+	background:#a6ff4d;
+	text-decoration:none;
+	color:greenyellow;
+}
+.Blo{
+	width: 100%;
+	text-align: center;
+	background:none;
+}
+.down{
+	height: 40px;
+	width: 100%;
+	margin: 0 auto;
+}
+.search{
+	height: 38px;
+	width: 300px;
+	margin-left: 60px;
+	border-radius: 9px;
+}
+.search input{
+	width: 240px;
+	height: 30px;
+	border-radius: 9px;
+}
+.search button img{
+	width: 25px;
+	height: 25px;
+	border-radius: 9px;
+	vertical-align: middle;
+}
+.Ble{
+	width: 100%;
+	height: 100px;
+	background: #69D58A
+}
+.Ble  li{
+	text-align: center;
+	list-style: none;
+}
+.item img{
+	width: 150px;
+	height: 150px;
+	border-radius: 9px;
+}
+.item li{
+	list-style: none;
+	text-align: center;
+}
+.item li:hover{
+	color: aqua;
+}
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10, .item11, .item12{
+	position: relative;
+	text-align: center;
+}
+.anh{
+	width: 1000px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 220px 220px 220px 220px;
+	grid-template-rows: 220px 220px 220px;
+	grid-gap: 20px;
+	background: none;
+}
